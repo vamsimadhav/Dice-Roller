@@ -12,6 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/diceNumber"
         android:textSize="30sp"
         android:textColor="@color/black"
         android:layout_gravity="center_horizontal"
@@ -20,6 +21,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/rollButton"
         android:layout_gravity="center_horizontal"
         android:text="@string/roll" />
 
