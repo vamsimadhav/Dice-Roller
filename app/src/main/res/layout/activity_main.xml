@@ -9,14 +9,12 @@
     android:layout_gravity="center_vertical"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/diceNumber"
-        android:textSize="30sp"
-        android:textColor="@color/black"
+        android:id="@+id/diceImage"
         android:layout_gravity="center_horizontal"
-        android:text="@string/diceNumber"/>
+        android:src="@drawable/empty_dice"/>
 
     <Button
         android:layout_width="wrap_content"
